@@ -22,7 +22,7 @@ def home():
 # Function which deals with post requests made to web app:
 def post_req(request):
     # If user has sent POST request from home page:
-    if 'form' in request:
+    if hasattr(request, 'form'):
         text_input = request.form['text_from_page']
         response = call_bert_api(text_input)
         if response.status_code==200:
@@ -36,7 +36,7 @@ def post_req(request):
     # If user has sent POST request directly to API - note that errors handled by Azure API:
     else:
         req_json = json.loads(request)
-        text_input = req_json['text']
+        text_input = request['text']
         response = call_bert_api(text_input)
         return response
 
