@@ -2,6 +2,7 @@ from flask import Flask, render_template, request as flask_req
 from http.client import responses as http_responses
 import requests
 import json
+import sys
 
 app = Flask(__name__)
 
@@ -21,6 +22,8 @@ def home():
 
 # Function which deals with post requests made to web app:
 def post_req(request):
+    print(request)
+    sys.stdout.flush()
     # If user has sent POST request from home page:
     text_input = request.form['text_from_page']
     if text_input:
@@ -35,6 +38,8 @@ def post_req(request):
         return render_template("main.html", text_input=text_input, msg=msg, output=output)
     # If user has sent POST request directly to API - note that errors handled by Azure API:
     elif request.is_json:
+        print(request)
+        sys.stdout.flush()
         req_json = request.get_json()
         text_input = req_json['text']
         response = call_bert_api(text_input)
