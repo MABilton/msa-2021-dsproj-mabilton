@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request as flask_req, make_response
+from flask import Flask, render_template, request as flask_req
 from http.client import responses as http_responses
 import requests
 import json
@@ -23,8 +23,8 @@ def home():
 def post_req(request):
     # If user has sent POST request from home page:
     if hasattr(request, 'form'):
-        text_input = [request.form['text_from_page']]
-        response = call_bert_api(text_input)
+        text_input = request.form['text_from_page']
+        response = call_bert_api([text_input])
         if response.status_code==200:
             msg="The Readability Score of your Text is:"
             pred = response.json()[0]
@@ -35,8 +35,9 @@ def post_req(request):
         return render_template("main.html", text_input=text_input, msg=msg, output=output)
     # If user has sent POST request directly to API - note that errors handled by Azure API:
     else:
-        req_json = json.loads(request)
-        text_input = req_json['text']
+        print(request)
+        req_json = json.dumps(request)
+        text_input = req_json['data']['text']
         response = call_bert_api(text_input)
         return response
 
