@@ -22,8 +22,8 @@ def home():
 # Function which deals with post requests made to web app:
 def post_req(request):
     # If user has sent POST request from home page:
-    if hasattr(request, 'form'):
-        text_input = request.form['text_from_page']
+    text_input = request.form['text_from_page']
+    if text_input:
         response = call_bert_api([text_input])
         if response.status_code==200:
             msg="The Readability Score of your Text is:"
@@ -34,9 +34,9 @@ def post_req(request):
             output = f"Error Code {response.status_code} : {http_responses[response.status_code]}"
         return render_template("main.html", text_input=text_input, msg=msg, output=output)
     # If user has sent POST request directly to API - note that errors handled by Azure API:
-    else:
-        req_json = json.dumps(request)
-        text_input = req_json['data']['text']
+    elif request.is_json:
+        req_json = request.get_json()
+        text_input = req_json['text']
         response = call_bert_api(text_input)
         return response
 
