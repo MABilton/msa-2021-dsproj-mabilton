@@ -1,8 +1,7 @@
-from flask import Flask, render_template, request as flask_req
+from flask import Flask, render_template, request as flask_req, Response
 from http.client import responses as http_responses
 import requests
 import json
-import sys
 
 app = Flask(__name__)
 
@@ -22,10 +21,8 @@ def home():
 
 # Function which deals with post requests made to web app:
 def post_req(request):
-    print(request)
-    sys.stdout.flush()
     # If user has sent POST request from home page:
-    text_input = request.form['text_from_page']
+    text_input = request.form.get('text_from_page')
     if text_input:
         response = call_bert_api([text_input])
         if response.status_code==200:
@@ -38,12 +35,12 @@ def post_req(request):
         return render_template("main.html", text_input=text_input, msg=msg, output=output)
     # If user has sent POST request directly to API - note that errors handled by Azure API:
     elif request.is_json:
-        print(request)
-        sys.stdout.flush()
         req_json = request.get_json()
         text_input = req_json['text']
         response = call_bert_api(text_input)
-        return response
+        pred = response.json()
+        res_json = Response(json.dumps(pred), mimetype='application/json')
+        return res_json
 
 # Function to send POST request to Azure BERT api:
 def call_bert_api(text):
@@ -56,4 +53,4 @@ def call_bert_api(text):
     return response
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
