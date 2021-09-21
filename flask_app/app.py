@@ -23,7 +23,7 @@ def home():
 def post_req(request):
     # If user has sent POST request from home page:
     if hasattr(request, 'form'):
-        text_input = request.form['text_from_page']
+        text_input = [request.form['text_from_page']]
         response = call_bert_api(text_input)
         if response.status_code==200:
             msg="The Readability Score of your Text is:"
@@ -36,7 +36,7 @@ def post_req(request):
     # If user has sent POST request directly to API - note that errors handled by Azure API:
     else:
         req_json = json.loads(request)
-        text_input = request['text']
+        text_input = req_json['text']
         response = call_bert_api(text_input)
         return response
 
@@ -44,7 +44,7 @@ def post_req(request):
 def call_bert_api(text):
     # Create input text data to POST to API:
     headers = {"Content-Type": "application/json"}
-    data = {"text": [text]}
+    data = {"text": text}
     data = json.dumps(data)
     # Send POST request to API:
     response = requests.post(API_ENDPOINT, data=data, headers=headers)
