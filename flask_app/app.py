@@ -35,7 +35,6 @@ def post_req(request):
         return render_template("main.html", text_input=text_input, msg=msg, output=output)
     # If user has sent POST request directly to API - note that errors handled by Azure API:
     else:
-        print(request)
         req_json = json.dumps(request)
         text_input = req_json['data']['text']
         response = call_bert_api(text_input)
