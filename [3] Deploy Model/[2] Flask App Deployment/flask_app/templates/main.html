@@ -15,12 +15,12 @@
       <!-- Div containing content of input form -->
       <div class="form-wrap">
         <!-- Form title -->
-        <h1>Text Readability Scored</h1>
-        <p>Computed by BERT on Azure</p>
+        <h1>Text Readability Scorer</h1>
+        <p>Powered by BERT, hosted on Azure</p>
         <!-- Form Input Field -->
         <form action="/" method="POST">
           <div class="form-group">
-            <label for="text-input"> This web app allows you to evaluate the readability of a piece of text. </label>
+            <label for="text-input"> This web app allows you to numerically evaluate the readability of a piece of text; more negative scores indicated more difficult texts. </label>
             <!-- Flask will paste previously sent input as {{ text_input }} -->
             <textarea name="text_from_page" placeholder="Enter your text here..." cols="30" rows="5">{{ text_input }}</textarea>
           </div>
