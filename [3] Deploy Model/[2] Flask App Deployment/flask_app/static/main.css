@@ -1,0 +1,83 @@
+  
+  @import url('https://fonts.googleapis.com/css?family=Raleway');
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Raleway", sans-serif;
+    background-color: #4073d1cc;
+    line-height: 1.8;
+  }
+
+  #container {
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+
+  #container .bottom-text {
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+  }
+
+  .form-wrap {
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+  }
+
+  .form-wrap h1,
+  .form-wrap p {
+    text-align: center;
+  }
+
+  .form-wrap .form-group {
+    margin-top: 15px;
+  }
+
+  .form-wrap .form-group label {
+    display: block;
+    color: #666;
+
+  }
+
+  .form-wrap .form-group input {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 5px;
+  }
+
+  .form-wrap button {
+    display: block;
+    width: 100%;
+    background-color: #499bc1;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+  }
+
+  .form-wrap button:hover {
+    background-color: #66b5da;
+  }
+
+  .form-wrap textarea {
+    outline: none;
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 5px;
+    font-family: "Raleway", sans-serif;
+  }
