@@ -1,101 +1,101 @@
-title,author,avg,std
-Pride and Prejudice,Jane Austen,-1.708224502790396,0.4922049967469484
-Alice's Adventures in Wonderland,Lewis Carroll,-0.4494841046095507,0.41363158512894743
-"Frankenstein; Or, The Modern Prometheus",Mary Wollstonecraft Shelley,-1.9724979892533312,0.42525152781393777
-The Adventures of Sherlock Holmes,Arthur Conan Doyle,-1.198603791711724,0.47057607373088706
-"Moby Dick; Or, The Whale",Herman Melville,-2.1300466674035543,0.4073573511569661
-A Tale of Two Cities,Charles Dickens,-1.6401975239207456,0.48257154062382074
-The Picture of Dorian Gray,Oscar Wilde,-1.1436701793667754,0.552249612515124
-The Prince,Niccolò Machiavelli,-2.358937295694505,0.29428069944749247
-The Great Gatsby,F. Scott Fitzgerald,-1.0213277022442455,0.5088318193490377
-Metamorphosis,Franz Kafka,-0.4574801902774544,0.32359048886507047
-Dracula,Bram Stoker,-1.480552074719389,0.5327934112423195
-Beowulf: An Anglo-Saxon Epic Poem,Anonymous,-2.6035840842458935,0.1629579291639017
-The Yellow Wallpaper,Charlotte Perkins Gilman,-0.6815161312659902,0.6179039603957261
-The Scarlet Letter,Nathaniel Hawthorne,-2.229686579266131,0.39567480799494054
-Grimms' Fairy Tales,Jacob Grimm and Wilhelm Grimm,-0.6287097594262209,0.4463901728345999
-Jane Eyre: An Autobiography,Charlotte Brontë,-1.6923465081130937,0.49497232856242807
-The Iliad,Homer,-2.7045811483825464,0.2297117956716517
-A Doll's House : a play,Henrik Ibsen,-1.2925118584930897,0.3414941168607258
-"Walden, and On The Duty Of Civil Disobedience",Henry David Thoreau,-1.9120983152339857,0.4452778704293464
-War and Peace,graf Leo Tolstoy,-1.4504265802030298,0.5851036068993728
-"The Adventures of Tom Sawyer, Complete",Mark Twain,-1.147856016873782,0.5538549445074339
-Crime and Punishment,Fyodor Dostoyevsky,-1.3445268784304312,0.4980763323775607
-The Strange Case of Dr. Jekyll and Mr. Hyde,Robert Louis Stevenson,-1.7368624824196546,0.5277385035339165
-Great Expectations,Charles Dickens,-1.4700332740302864,0.4933164785147758
-Ulysses,James Joyce,-2.270401011730082,0.47482030768201944
-"The Count of Monte Cristo, Illustrated",Alexandre Dumas,-1.7083573536366672,0.4403759011616571
-A Christmas Carol in Prose; Being a Ghost Story of Christmas,Charles Dickens,-1.1974118826149394,0.5269300247700812
-The Wonderful Wizard of Oz,L. Frank Baum,-0.01992626381318339,0.3254347767476976
-The Republic,Plato,-2.300703555737671,0.3948111827605805
-Heart of Darkness,Joseph Conrad,-1.4990211597510747,0.43388590296407875
-A Modest Proposal,Jonathan Swift,-2.4310013784302607,0.4235876126615174
-The Prophet,Kahlil Gibran,-2.1203488032023112,0.27466299746375483
-Adventures of Huckleberry Finn,Mark Twain,-0.8876964219578649,0.5572744839511238
-Anthem,Ayn Rand,-1.152880891671647,0.4932152110860808
-Peter Pan,J. M. Barrie,-0.7312236660048366,0.5633103085305663
-Little Women,Louisa May Alcott,-0.8628596122019486,0.5326255080543165
-The American Diary of a Japanese Girl,Yoné Noguchi,-1.5186145504315693,0.4106141311951562
-Anne of Green Gables,L. M. Montgomery,-0.706809268836205,0.4901639487978967
-The Importance of Being Earnest: A Trivial Comedy for Serious People,Oscar Wilde,-1.6649922142426172,0.40866312749510464
-A Study in Scarlet,Arthur Conan Doyle,-1.2950250472742737,0.5208363949545527
-The Odyssey,Homer,-1.7009267284554808,0.49940681734810577
-Don Quixote,Miguel de Cervantes Saavedra,-2.0853339597575955,0.4176200190614615
-"The Happy Prince, and Other Tales",Oscar Wilde,-0.5757008662118631,0.44925187572812164
-The War of the Worlds,H. G. Wells,-1.594211918716826,0.5328716777158578
-The Souls of Black Folk,W. E. B. Du Bois,-1.8248260109512895,0.4499257991563046
-The Romance of Lust: A classic Victorian erotic novel,Anonymous,-1.6399334602587254,0.5433386919369058
-The Kama Sutra of Vatsyayana,Vatsyayana,-2.1148227052294093,0.4774650126926692
-"Narrative of the Life of Frederick Douglass, an American Slave",Frederick Douglass,-1.5749020096167778,0.5089068943112611
-Treasure Island,Robert Louis Stevenson,-1.3279680268869873,0.36913045854674503
-The Hound of the Baskervilles,Arthur Conan Doyle,-1.3387972237635715,0.47883141642850313
-Wuthering Heights,Emily Brontë,-1.5253994894565224,0.5028419158155845
-Around the World in Eighty Days,Jules Verne,-1.7542296317665458,0.4310522563914085
-Emma,Jane Austen,-1.5967941974912474,0.4417818173628477
-"The Extraordinary Adventures of Arsene Lupin, Gentleman-Burglar",Maurice Leblanc,-1.5751571570419602,0.41117203528841273
-Les Misérables,Victor Hugo,-2.020497882953583,0.5273980538026121
-"The Awakening, and Selected Short Stories",Kate Chopin,-1.2261144217105102,0.536828041367401
-The Brothers Karamazov,Fyodor Dostoyevsky,-1.3814084978462133,0.511151921353134
-Uncle Tom's Cabin,Harriet Beecher Stowe,-1.2989463091817954,0.5685746022484162
-The Time Machine,H. G. Wells,-1.5493863565058796,0.4560692974768572
-Dubliners,James Joyce,-1.18263867635962,0.4835291663137188
-A Pickle for the Knowing Ones,Timothy Dexter,-2.5720463810545025,0.5500086303070427
-The Call of the Wild,Jack London,-1.2904704524043165,0.38707885124256497
-The Jungle Book,Rudyard Kipling,-0.8768543074029753,0.4587201178479179
-Leviathan,Thomas Hobbes,-2.7630370820301087,0.16782960195179666
-The Secret Garden,Frances Hodgson Burnett,-0.6431193747475524,0.5063310639297498
-Second Treatise of Government,John Locke,-2.594590514580126,0.21166191359008046
-The Mysterious Affair at Styles,Agatha Christie,-1.2844593953975583,0.42869288549428647
-Beyond Good and Evil,Friedrich Wilhelm Nietzsche,-2.629670435507622,0.22725121240993296
-David Copperfield,Charles Dickens,-1.4773463224944101,0.5254744144216403
-The King James Version of the Bible,Anonymous,-2.3481853371010946,0.21858237921722456
-Gulliver's Travels into Several Remote Nations of the World,Jonathan Swift,-2.131053085959456,0.5156447166838145
-Meditations,Emperor of Rome Marcus Aurelius,-2.663319192881666,0.26048285374943536
-Anna Karenina,graf Leo Tolstoy,-1.3047943193158882,0.5132814144935629
-"The Slang Dictionary: Etymological, Historical and Andecdotal",John Camden Hotten,-2.482356279824687,0.2990356303908025
-The Legend of Sleepy Hollow,Washington Irving,-2.056316578760743,0.38611585767470435
-Autobiography of Benjamin Franklin,Benjamin Franklin,-2.3023761319204636,0.39238587676561837
-Essays of Michel de Montaigne — Complete,Michel de Montaigne,-2.576453855072615,0.26172212666627037
-Thus Spake Zarathustra: A Book for All and None,Friedrich Wilhelm Nietzsche,-2.3131817965577746,0.2913644459586144
-Old Granny Fox,Thornton W. Burgess,-0.20617231429893185,0.3292316684349931
-Siddhartha,Hermann Hesse,-1.412064259399229,0.4594419461193051
-The Art of War,active 6th century B.C. Sunzi,-2.415340935291887,0.3063581097406844
-Persuasion,Jane Austen,-1.808475644531704,0.4324809580020762
-Sense and Sensibility,Jane Austen,-1.7245397028468905,0.45677956791128177
-The Devil's Dictionary,Ambrose Bierce,-2.7053251435696066,0.337175120613657
-An Index of The Divine Comedy by Dante,Dante Alighieri,-1.8443880081176758,0.007125377655029297
-Oliver Twist,Charles Dickens,-1.3592893260795234,0.554692374615176
-The Problems of Philosophy,Bertrand Russell,-2.4524847079014434,0.3324068624934048
-Notes from the Underground,Fyodor Dostoyevsky,-1.5365730265407582,0.651924278765612
-Narrative of the Captivity and Restoration of Mrs. Mary Rowlandson,Mary White Rowlandson,-1.5972261694398258,0.45004839859206897
-The Confessions of St. Augustine,Bishop of Hippo Saint Augustine,-2.547973713949713,0.21582086564895042
-Ethan Frome,Edith Wharton,-1.1196810062053604,0.5293230949945611
-Complete Original Short Stories of Guy De Maupassant,Guy de Maupassant,-1.2288842616055635,0.527349223180691
-"The Interesting Narrative of the Life of Olaudah Equiano, Or Gustavus Vassa, The African",Olaudah Equiano,-1.7673147700354457,0.5433506718634512
-The Elements of Style,William Strunk,-2.531743003610979,0.21793294195882462
-"Songs of Innocence, and Songs of Experience",William Blake,-1.9623138189315796,0.44871473737141276
-Pygmalion,Bernard Shaw,-1.7345643145603369,0.3964064670880703
-Candide,Voltaire,-2.0266406247296285,0.42551708255952575
-The Life and Adventures of Robinson Crusoe,Daniel Defoe,-1.6672573944697013,0.4673254504810347
-Three Men in a Boat (To Say Nothing of the Dog),Jerome K. Jerome,-1.1362977731511297,0.5646438715046477
-Common Sense,Thomas Paine,-2.5451930848034947,0.22846242664211527
+text_id,title,author,avg,std
+0,Pride and Prejudice,Jane Austen,-1.708224502790396,0.4922049967469484
+1,"Frankenstein; Or, The Modern Prometheus",Mary Wollstonecraft Shelley,-1.9724979892533312,0.42525152781393777
+2,Alice's Adventures in Wonderland,Lewis Carroll,-0.4494841046095507,0.41363158512894743
+3,The Adventures of Sherlock Holmes,Arthur Conan Doyle,-1.198603791711724,0.47057607373088706
+4,"Moby Dick; Or, The Whale",Herman Melville,-2.1300466674035543,0.4073573511569661
+5,The Prince,Niccolò Machiavelli,-2.358937295694505,0.29428069944749247
+6,The Yellow Wallpaper,Charlotte Perkins Gilman,-0.6815161312659902,0.6179039603957261
+7,The Picture of Dorian Gray,Oscar Wilde,-1.1436701793667754,0.552249612515124
+8,Metamorphosis,Franz Kafka,-0.4574801902774544,0.32359048886507047
+9,A Tale of Two Cities,Charles Dickens,-1.6401975239207456,0.48257154062382074
+10,A Doll's House : a play,Henrik Ibsen,-1.2925118584930897,0.3414941168607258
+11,A Modest Proposal,Jonathan Swift,-2.4310013784302607,0.4235876126615174
+12,Dracula,Bram Stoker,-1.480552074719389,0.5327934112423195
+13,The Strange Case of Dr. Jekyll and Mr. Hyde,Robert Louis Stevenson,-1.7368624824196546,0.5277385035339165
+14,Anthem,Ayn Rand,-1.152880891671647,0.4932152110860808
+15,"Walden, and On The Duty Of Civil Disobedience",Henry David Thoreau,-1.9120983152339857,0.4452778704293464
+16,Grimms' Fairy Tales,Jacob Grimm and Wilhelm Grimm,-0.6287097594262209,0.4463901728345999
+17,The Iliad,Homer,-2.7045811483825464,0.2297117956716517
+18,Jane Eyre: An Autobiography,Charlotte Brontë,-1.6923465081130937,0.49497232856242807
+19,A Christmas Carol in Prose; Being a Ghost Story of Christmas,Charles Dickens,-1.1974118826149394,0.5269300247700812
+20,The Odyssey,Homer,-1.7009267284554808,0.49940681734810577
+21,The Souls of Black Folk,W. E. B. Du Bois,-1.8248260109512895,0.4499257991563046
+22,Heart of Darkness,Joseph Conrad,-1.4990211597510747,0.43388590296407875
+23,"The Adventures of Tom Sawyer, Complete",Mark Twain,-1.147856016873782,0.5538549445074339
+24,"Narrative of the Life of Frederick Douglass, an American Slave",Frederick Douglass,-1.5749020096167778,0.5089068943112611
+25,Narrative of the Captivity and Restoration of Mrs. Mary Rowlandson,Mary White Rowlandson,-1.5972261694398258,0.45004839859206897
+26,Crime and Punishment,Fyodor Dostoyevsky,-1.3445268784304312,0.4980763323775607
+27,The Importance of Being Earnest: A Trivial Comedy for Serious People,Oscar Wilde,-1.6649922142426172,0.40866312749510464
+28,Adventures of Huckleberry Finn,Mark Twain,-0.8876964219578649,0.5572744839511238
+29,War and Peace,graf Leo Tolstoy,-1.4504265802030298,0.5851036068993728
+30,Great Expectations,Charles Dickens,-1.4700332740302864,0.4933164785147758
+31,"The Awakening, and Selected Short Stories",Kate Chopin,-1.2261144217105102,0.536828041367401
+32,The Wonderful Wizard of Oz,L. Frank Baum,-0.01992626381318339,0.3254347767476976
+33,Leviathan,Thomas Hobbes,-2.7630370820301087,0.16782960195179666
+34,Little Women,Louisa May Alcott,-0.8628596122019486,0.5326255080543165
+35,Peter Pan,J. M. Barrie,-0.7312236660048366,0.5633103085305663
+36,Anne of Green Gables,L. M. Montgomery,-0.706809268836205,0.4901639487978967
+37,Ulysses,James Joyce,-2.270401011730082,0.47482030768201944
+38,Dubliners,James Joyce,-1.18263867635962,0.4835291663137188
+39,The Prophet,Kahlil Gibran,-2.1203488032023112,0.27466299746375483
+40,"The Count of Monte Cristo, Illustrated",Alexandre Dumas,-1.7083573536366672,0.4403759011616571
+41,Old Granny Fox,Thornton W. Burgess,-0.20617231429893185,0.3292316684349931
+42,The Hound of the Baskervilles,Arthur Conan Doyle,-1.3387972237635715,0.47883141642850313
+43,Don Quixote,Miguel de Cervantes Saavedra,-2.0853339597575955,0.4176200190614615
+44,Wuthering Heights,Emily Brontë,-1.5253994894565224,0.5028419158155845
+45,The Legend of Sleepy Hollow,Washington Irving,-2.056316578760743,0.38611585767470435
+46,The War of the Worlds,H. G. Wells,-1.594211918716826,0.5328716777158578
+47,A Study in Scarlet,Arthur Conan Doyle,-1.2950250472742737,0.5208363949545527
+48,Treasure Island,Robert Louis Stevenson,-1.3279680268869873,0.36913045854674503
+49,The Time Machine,H. G. Wells,-1.5493863565058796,0.4560692974768572
+50,Uncle Tom's Cabin,Harriet Beecher Stowe,-1.2989463091817954,0.5685746022484162
+51,The Call of the Wild,Jack London,-1.2904704524043165,0.38707885124256497
+52,The Jungle Book,Rudyard Kipling,-0.8768543074029753,0.4587201178479179
+53,Oliver Twist,Charles Dickens,-1.3592893260795234,0.554692374615176
+54,Emma,Jane Austen,-1.5967941974912474,0.4417818173628477
+55,Les Misérables,Victor Hugo,-2.020497882953583,0.5273980538026121
+56,Essays of Michel de Montaigne — Complete,Michel de Montaigne,-2.576453855072615,0.26172212666627037
+57,Gulliver's Travels into Several Remote Nations of the World,Jonathan Swift,-2.131053085959456,0.5156447166838145
+58,Common Sense,Thomas Paine,-2.5451930848034947,0.22846242664211527
+59,Ethan Frome,Edith Wharton,-1.1196810062053604,0.5293230949945611
+60,The Secret Garden,Frances Hodgson Burnett,-0.6431193747475524,0.5063310639297498
+61,The Problems of Philosophy,Bertrand Russell,-2.4524847079014434,0.3324068624934048
+62,Siddhartha,Hermann Hesse,-1.412064259399229,0.4594419461193051
+63,"Songs of Innocence, and Songs of Experience",William Blake,-1.9623138189315796,0.44871473737141276
+64,David Copperfield,Charles Dickens,-1.4773463224944101,0.5254744144216403
+65,The Works of Edgar Allan Poe — Volume 2,Edgar Allan Poe,-2.2938320355840247,0.4582614710528583
+66,The Jungle,Upton Sinclair,-1.1589333639983526,0.5032387042867639
+67,Notes from the Underground,Fyodor Dostoyevsky,-1.5365730265407582,0.651924278765612
+68,Thus Spake Zarathustra: A Book for All and None,Friedrich Wilhelm Nietzsche,-2.3131817965577746,0.2913644459586144
+69,Around the World in Eighty Days,Jules Verne,-1.7542296317665458,0.4310522563914085
+70,The Confessions of St. Augustine,Bishop of Hippo Saint Augustine,-2.547973713949713,0.21582086564895042
+71,The Life and Adventures of Robinson Crusoe,Daniel Defoe,-1.6672573944697013,0.4673254504810347
+72,Beyond Good and Evil,Friedrich Wilhelm Nietzsche,-2.629670435507622,0.22725121240993296
+73,Anna Karenina,graf Leo Tolstoy,-1.3047943193158882,0.5132814144935629
+74,"The Extraordinary Adventures of Arsene Lupin, Gentleman-Burglar",Maurice Leblanc,-1.5751571570419602,0.41117203528841273
+75,Sense and Sensibility,Jane Austen,-1.7245397028468905,0.45677956791128177
+76,Complete Original Short Stories of Guy De Maupassant,Guy de Maupassant,-1.2288842616055635,0.527349223180691
+77,The Mysterious Affair at Styles,Agatha Christie,-1.2844593953975583,0.42869288549428647
+78,Pygmalion,Bernard Shaw,-1.7345643145603369,0.3964064670880703
+79,The King James Version of the Bible,Anonymous,-2.3481853371010946,0.21858237921722456
+80,Le Morte d'Arthur: Volume 1,Sir Thomas Malory,-2.417681454170716,0.2450701338642053
+81,Meditations,Emperor of Rome Marcus Aurelius,-2.663319192881666,0.26048285374943536
+82,The Turn of the Screw,Henry James,-1.5128698302017125,0.5400430525319085
+83,The Iliad,Homer,-2.0479441810077823,0.33685451052142823
+84,Persuasion,Jane Austen,-1.808475644531704,0.4324809580020762
+85,Democracy in America — Volume 1,Alexis de Tocqueville,-2.3156516936349973,0.27872871712968106
+86,The Art of War,active 6th century B.C. Sunzi,-2.415340935291887,0.3063581097406844
+87,The Republic of Plato,Plato,-2.50083401661015,0.34788853176238443
+88,Three Men in a Boat (To Say Nothing of the Dog),Jerome K. Jerome,-1.1362977731511297,0.5646438715046477
+89,Through the Looking-Glass,Lewis Carroll,-0.4677024705338253,0.5151047544803427
+90,The Devil's Dictionary,Ambrose Bierce,-2.7053251435696066,0.337175120613657
+91,The Poetics of Aristotle,Aristotle,-2.625427384919758,0.19566223664736143
+92,"Mosses from an Old Manse, and Other Stories",Nathaniel Hawthorne,-1.9802579576290618,0.46850316980148504
+93,Northanger Abbey,Jane Austen,-1.6768495877306473,0.5046403484794797
+94,The Tragical History of Doctor Faustus,Christopher Marlowe,-2.794786168181378,0.18692914923494988
+95,A Journal of the Plague Year,Daniel Defoe,-2.025764217457573,0.4427249489252274
+96,The Sign of the Four,Arthur Conan Doyle,-1.286911019240506,0.45269415067458485
+97,A Portrait of the Artist as a Young Man,James Joyce,-1.7594337402388107,0.5350663415242664
+98,The Marching Morons,C. M. Kornbluth,-1.2574118224401323,0.48934460107719513
+99,Madame Bovary,Gustave Flaubert,-1.6138128416427078,0.46971496007664076
