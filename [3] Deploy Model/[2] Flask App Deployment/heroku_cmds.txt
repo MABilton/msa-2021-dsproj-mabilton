@@ -1,9 +1,0 @@
-To deploy the flask_app subfolder onto Heroku via the commandline, first log in to your Heroku account in the commandline:
-    heroku login
-Next, execute:
-    heroku git:remote -a readability-bert
-Note that 'bert-readability-mabilton' is the name of our Heroku app (which we created on the Heroku webiste).
-After this, we just need to run:
-    git subtree push --prefix '[3] Deploy Model/[2] Flask App Deployment/flask_app' heroku master
-from the *root directory* of this git repository. After this, we just need to execute:
-    heroku open
